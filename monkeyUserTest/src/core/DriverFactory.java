@@ -90,7 +90,7 @@ public class DriverFactory {
 	public WebElement findElement(String eleName) {
 
 		String xpath = eleprop.getValue(eleName);
-	//	String xpath =new PropertiesFileHandler("WebElementProperties").getValue(eleName);
+
 		WebElement ele =null;
 		try {
 			ele =  driver.findElement(By.xpath(xpath));
