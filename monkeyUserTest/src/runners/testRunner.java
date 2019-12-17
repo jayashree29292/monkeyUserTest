@@ -7,6 +7,10 @@ import core.DriverFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
@@ -15,6 +19,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 
 public class testRunner  {
 	public static WebDriver driver =null;
@@ -24,7 +29,7 @@ public class testRunner  {
 	@Test(priority=1)
 	public void verifyAppLaunchTest() {
 		try{
-			Assert.assertEquals((tf.verifyAppluanched()), true);
+			Assert.assertEquals((tf.verifyApplaunched()), true);
 			System.out.println("verifyAppLaunchTest Passed");
 		}
 		catch (Throwable e) {
@@ -93,10 +98,11 @@ public class testRunner  {
 		}
 	}
 
-	@Test(priority=7)
-	public void addToCartandCheckoutTest() {
+	@Test(priority=7,dataProvider="ShippingDetails")
+	public void addToCartandCheckoutTest(String product, String contactInfo, String lastName, String addrInfo, String city, String zipCode) {
+	//public void addToCartandCheckoutTest() {	
 		try{
-			Assert.assertEquals((tf.addToCartandCheckout("Developer")), true);
+			Assert.assertEquals((tf.addToCartandCheckout(product, contactInfo, lastName, addrInfo, city, zipCode)), true);
 			System.out.println("addToCartandCheckout Passed");
 		}
 		catch (Throwable e) {
@@ -104,13 +110,16 @@ public class testRunner  {
 			Assert.fail();
 		}
 	}
-
+	
 	@BeforeMethod
 	public void beforeMethod() {
+		System.out.println("-----------Test Method Run Start --------");
+		
 	}
 
 	@AfterMethod
 	public void afterMethod() {
+		System.out.println("-----------Test Method Run End --------");
 	}
 
 	@BeforeClass
@@ -124,31 +133,33 @@ public class testRunner  {
 	@BeforeTest
 	public void beforeTest() {
 		df= new DriverFactory();
-		df.initialize("chrome");
+		df.initialize();
 		df.launchURL();
 		tf= new testFunctions(df);
 	}
 
 	@AfterTest
 	public void afterTest() {
-	}
-
-	@BeforeSuite
-	public void beforeSuite() {
-	}
-
-	@AfterSuite
-	public void afterSuite() {
+		df.driverClose();
 	}
 
 	 @DataProvider(name="ComicDatesList")
-	    public static Object[][] getDataFromDataprovider(){
+	    public static Object[][] getComicListFromDataprovider(){
 	    return new Object[][]
 	    	{
 	            {"December  4, 2018"},
 	            {"June 19, 2018"},
 	            {"May 30, 2017"}
 	        };
-	
 	    }
+	 
+	 @DataProvider(name="ShippingDetails")
+	    public Iterator <Object[]> getShippingDetailsFromDataprovider(){
+	    	ArrayList<Object[]> details = new ArrayList<Object[]>();
+	    	Object[] input = {"Developer", "+14379722734", "Jay", "Finch Avenue", "Toronto", "M2N4H6"};
+	    	details.add(input);
+			return details.iterator();
+	    }
+
+	    
 }

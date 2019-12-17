@@ -6,14 +6,17 @@
       <class name="runners.testRunner">
         <methods>
           <include name="beforeMethod"/>
-          <include name="displayComicFromSpecificDatesTest" invocation-numbers="0"/>
+          <include name="displayComicFromSpecificDatesTest" invocation-numbers="0 1 2"/>
+          <include name="addToCartandCheckoutTest" invocation-numbers="0"/>
+          <include name="displayRandomComicTest"/>
+          <include name="displayNextComicTest"/>
           <include name="beforeClass"/>
+          <include name="displayLatestComicTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="afterSuite"/>
           <include name="afterTest"/>
+          <include name="displayComicHistoryTest"/>
           <include name="afterClass"/>
-          <include name="beforeSuite"/>
         </methods>
       </class> <!-- runners.testRunner -->
     </classes>

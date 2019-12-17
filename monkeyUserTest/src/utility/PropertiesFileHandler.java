@@ -15,7 +15,6 @@ public class PropertiesFileHandler {
 	public PropertiesFileHandler(String fileName)   {
 		
 		String filePath = System.getProperty("user.dir")+File.separator+"config"+File.separator+fileName+".properties";
-				
 		try {
 			input = new FileInputStream(filePath);
 		} catch (FileNotFoundException e) {
@@ -28,13 +27,9 @@ public class PropertiesFileHandler {
 		}
 	}
 	
-	
 	public String getValue(String propName) {
-		
 		String strValue = prop.getProperty(propName);
-		
 		return strValue;
-		
 	}
 	
 	

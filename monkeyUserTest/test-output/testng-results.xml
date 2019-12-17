@@ -1,41 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Successfully loaded the home page]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed random Comic]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed next Comic]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the Comic History]]>
+    </line>
+    <line>
+      <![CDATA[The Latest Comic is Displayed is 26 NOV 2019]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the Comic History]]>
+    </line>
+    <line>
+      <![CDATA[Comic found on the date: December  4, 2018]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the Comic History]]>
+    </line>
+    <line>
+      <![CDATA[Comic found on the date: June 19, 2018]]>
+    </line>
+    <line>
+      <![CDATA[Successfully displayed the Comic History]]>
+    </line>
+    <line>
+      <![CDATA[Comic found on the date: May 30, 2017]]>
+    </line>
+    <line>
+      <![CDATA[Successfully added the product Developer to cart and checkedout]]>
+    </line>
   </reporter-output>
-  <suite started-at="2019-12-15T23:59:26 EST" name="Default suite" finished-at="2019-12-15T23:59:53 EST" duration-ms="26744">
+  <suite started-at="2019-12-16T21:59:40 EST" name="Default suite" finished-at="2019-12-16T22:00:17 EST" duration-ms="36970">
     <groups>
     </groups>
-    <test started-at="2019-12-15T23:59:26 EST" name="Default test" finished-at="2019-12-15T23:59:53 EST" duration-ms="26744">
+    <test started-at="2019-12-16T21:59:40 EST" name="Default test" finished-at="2019-12-16T22:00:17 EST" duration-ms="36970">
       <class name="runners.testRunner">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:26 EST" name="beforeSuite" finished-at="2019-12-15T23:59:26 EST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:26 EST" name="beforeTest" finished-at="2019-12-15T23:59:33 EST" duration-ms="7138" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:40 EST" name="beforeTest" finished-at="2019-12-16T21:59:52 EST" duration-ms="11759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="beforeClass" finished-at="2019-12-15T23:59:33 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="beforeClass" finished-at="2019-12-16T21:59:52 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="beforeMethod" finished-at="2019-12-15T23:59:33 EST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="beforeMethod" finished-at="2019-12-16T21:59:52 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyAppLaunchTest()[pri:1, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="verifyAppLaunchTest" finished-at="2019-12-15T23:59:33 EST" duration-ms="87" status="PASS">
+        <test-method signature="verifyAppLaunchTest()[pri:1, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="verifyAppLaunchTest" finished-at="2019-12-16T21:59:52 EST" duration-ms="71" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Successfully loaded the home page]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyAppLaunchTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="afterMethod" finished-at="2019-12-15T23:59:33 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="afterMethod" finished-at="2019-12-16T21:59:52 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="beforeMethod" finished-at="2019-12-15T23:59:33 EST" duration-ms="1" status="PASS">
+        <test-method signature="displayRandomComicTest()[pri:2, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="displayRandomComicTest" finished-at="2019-12-16T21:59:53 EST" duration-ms="731" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed random Comic]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayRandomComicTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:52 EST" name="beforeMethod" finished-at="2019-12-16T21:59:52 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:33 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-15T23:59:41 EST" duration-ms="7268" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:53 EST" name="afterMethod" finished-at="2019-12-16T21:59:53 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:53 EST" name="beforeMethod" finished-at="2019-12-16T21:59:53 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayNextComicTest()[pri:3, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:53 EST" name="displayNextComicTest" finished-at="2019-12-16T21:59:54 EST" depends-on-methods="runners.testRunner.displayRandomComicTest" duration-ms="712" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed next Comic]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayNextComicTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="afterMethod" finished-at="2019-12-16T21:59:54 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="beforeMethod" finished-at="2019-12-16T21:59:54 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayComicHistoryTest()[pri:4, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="displayComicHistoryTest" finished-at="2019-12-16T21:59:54 EST" duration-ms="624" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed the Comic History]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayComicHistoryTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="afterMethod" finished-at="2019-12-16T21:59:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="beforeMethod" finished-at="2019-12-16T21:59:54 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayLatestComicTest()[pri:5, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:54 EST" name="displayLatestComicTest" finished-at="2019-12-16T21:59:56 EST" depends-on-methods="runners.testRunner.displayComicHistoryTest" duration-ms="1396" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[The Latest Comic is Displayed is 26 NOV 2019]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- displayLatestComicTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:56 EST" name="afterMethod" finished-at="2019-12-16T21:59:56 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:56 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-16T21:59:59 EST" duration-ms="2833" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,17 +135,27 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed the Comic History]]>
+            </line>
+            <line>
+              <![CDATA[Comic found on the date: December  4, 2018]]>
+            </line>
           </reporter-output>
         </test-method> <!-- displayComicFromSpecificDatesTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:41 EST" name="afterMethod" finished-at="2019-12-15T23:59:41 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:41 EST" name="beforeMethod" finished-at="2019-12-15T23:59:41 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:56 EST" name="beforeMethod" finished-at="2019-12-16T21:59:56 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:41 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-15T23:59:47 EST" duration-ms="6406" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:59 EST" name="afterMethod" finished-at="2019-12-16T21:59:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:59 EST" name="beforeMethod" finished-at="2019-12-16T21:59:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T21:59:59 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-16T22:00:02 EST" duration-ms="3594" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,17 +164,23 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed the Comic History]]>
+            </line>
+            <line>
+              <![CDATA[Comic found on the date: June 19, 2018]]>
+            </line>
           </reporter-output>
         </test-method> <!-- displayComicFromSpecificDatesTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:47 EST" name="beforeMethod" finished-at="2019-12-15T23:59:47 EST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:47 EST" name="afterMethod" finished-at="2019-12-15T23:59:47 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:02 EST" name="afterMethod" finished-at="2019-12-16T22:00:02 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:47 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-15T23:59:53 EST" duration-ms="5792" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:02 EST" name="beforeMethod" finished-at="2019-12-16T22:00:02 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="displayComicFromSpecificDatesTest(java.lang.String)[pri:6, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:02 EST" name="displayComicFromSpecificDatesTest" data-provider="ComicDatesList" finished-at="2019-12-16T22:00:06 EST" duration-ms="4155" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,24 +189,73 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Successfully displayed the Comic History]]>
+            </line>
+            <line>
+              <![CDATA[Comic found on the date: May 30, 2017]]>
+            </line>
           </reporter-output>
         </test-method> <!-- displayComicFromSpecificDatesTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:53 EST" name="afterMethod" finished-at="2019-12-15T23:59:53 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:06 EST" name="afterMethod" finished-at="2019-12-16T22:00:06 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:53 EST" name="afterClass" finished-at="2019-12-15T23:59:53 EST" duration-ms="0" status="PASS">
+        <test-method signature="addToCartandCheckoutTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:06 EST" name="addToCartandCheckoutTest" data-provider="ShippingDetails" finished-at="2019-12-16T22:00:17 EST" duration-ms="11017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Developer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[+14379722734]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jay]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Finch Avenue]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[M2N4H6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully added the product Developer to cart and checkedout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartandCheckoutTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:06 EST" name="beforeMethod" finished-at="2019-12-16T22:00:06 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:17 EST" name="afterMethod" finished-at="2019-12-16T22:00:17 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:17 EST" name="afterClass" finished-at="2019-12-16T22:00:17 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:53 EST" name="afterTest" finished-at="2019-12-15T23:59:53 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:runners.testRunner@1a0dcaa]" started-at="2019-12-16T22:00:17 EST" name="afterTest" finished-at="2019-12-16T22:00:17 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:runners.testRunner@3745e5c6]" started-at="2019-12-15T23:59:53 EST" name="afterSuite" finished-at="2019-12-15T23:59:53 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- runners.testRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
